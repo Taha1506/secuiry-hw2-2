@@ -1,3 +1,3 @@
 FROM python:3.12-slim
 
-CMD ["python", "-m", "http.server"]
+CMD ["python", "-m", "http.server", "8000"]
